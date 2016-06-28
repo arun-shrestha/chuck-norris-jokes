@@ -1,0 +1,11 @@
+<% layout('layout') -%>
+<h1>Joke</h1>
+<p><%- joke %></p>
+
+<button class="btn btn-info" type="button" onclick="refresh()" name="button">New Joke </button>
+
+<script type="text/javascript">
+    function refresh(){
+        location.reload()
+    }
+</script>
